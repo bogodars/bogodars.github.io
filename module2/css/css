@@ -1,0 +1,74 @@
+html, body {
+   background-color: #cccdce; 
+   font-family: 'Baloo Bhaina', sans-serif;
+   margin: 0;
+   padding: 0; 
+}
+
+h1{
+  
+    text-align: center;  
+}
+
+.container {
+    width:33%;
+    float:left;
+    border: 1px solid black;
+
+  
+    overflow: hidden;
+  
+   padding-left: 5px; 
+  margin: 0px 5px 10px;
+  box-sizing: border-box;
+}
+.box {
+  overflow:hidden;
+}
+.container  h2{
+    margin: 0;
+    font-size:100%;
+    padding:10px 15px;
+    border-bottom:1px solid black;
+    border-left:1px solid black;
+    color:white;
+    width:70%;
+  max-width:200px;
+    float:right;
+    text-align: center;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+/* LARGE DEVICES*/
+@media (min-width: 992px) {
+  .container{
+    width: calc(33.33% - 10px);  
+     hight:200px;
+  
+  }
+}
+
+/* MEDIUM DEVICES*/
+
+ @media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: calc(50% - 10px);
+
+  }
+   
+   .container.container-full  {
+     width: calc(100% - 10px);;
+   }
+}
+
+/* SMALL DEVICES*/
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+}
