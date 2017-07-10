@@ -1,0 +1,164 @@
+ html, body { 
+ 	margin: 0; 
+ 	padding: 0;
+ 	 font-family: 'Arvo', serif; 
+ 	 font-size: 16px; 
+ 	 } 
+
+ 	
+ 	 .header {
+ 	 	 	padding: 40px; 
+ 	 	 	background-color: #fff;
+ 	 	 	} 
+
+ 	 .header h1 {
+ 	 	margin: 0; 
+ 	 	padding: 0; 
+ 	 	    margin-left: -100px;
+ 	 	} 
+ 	 	.nav {
+ 	 		float:right; 
+ 	 		width:340px; 
+ 	 		    margin-right: -100px;
+ 	 		} 
+
+.nav-pills li.active a, .section .btn:hover, .nav-pills li a:hover {
+    background-color: rgba(216,25,47,1);
+    box-shadow: 0 2px 4px rgba(0,0,0,.5);
+    color: #fff;
+}
+ 	 		.nav>li>a {
+    position: relative;
+    display: block;
+    
+}
+ 	 		.nav-pills li a {
+ 	 			color: #d8192f;
+ 	 			 border:1px solid #d8192f;
+ 	 			  margin-left:10px; 
+ 	 			  text-align:center; 
+ 	 			  width:100px; 
+                      
+ 	 			} 
+ 	 			  
+ 	 			  .nav-pills li.active a:hover {
+ 	 			  	background-color: #d8192f;
+ 	 			  	 } 
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+ 	 			 .jumbotron {
+ 	 			 	background: url(F:\newproj\pictures\ROAD.jpg) no-repeat center center; 
+ 	 			 	background-size:cover; 
+ 	 			 	height: 500px;
+ 	 			 	 padding-top: 25px; 
+ 	 			 	 margin-bottom: 0; 
+ 	 			 	 } 
+
+ 	 			 .jumbotron h1:first-child {
+ 	 			 	 	margin:120px 0 0; 
+ 	 			 	 	} 
+ 	 			 	 	
+
+.jumbotron h1 {
+    color:  #FF0000;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+
+
+.banner {
+    line-height: 100px;
+    color:  #d8192f;
+    text-align: center;
+}
+
+
+   
+
+   .img-responsive {
+    height : 183px; 
+    width: 414px;
+}
+
+
+
+
+.supporting h1 {
+    text-align: center;
+    display: block;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+
+.supporting {
+    background: url(http://i.piccy.info/i9/70fdc75365b9838b5ae3683aad3cabd0/1482265101/159275/1101129/bj7twkcbwos_kai_oberhauser.jpg) no-repeat center center; 
+        background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 20px;
+   font-family: 'Domine', serif;
+   margin-top: 100px;
+   
+   
+}
+
+#intro {
+    padding: 10px 30px 40px 30px;
+}
+ 	 	
+
+.btn-default {
+    color: #fff;
+    border-color: #d8192f;
+    background-color: #d8192f;
+    text-align: center;
+    margin: 30px 0 40px 0;
+    padding: 10px 25px 10px 25px;
+    font-size: 14px;
+}
+
+.colortext {
+    color: #d8192f;
+}
+
+
+.footer{
+    background-color:  #d8192f;
+    line-height: 100px;
+}
+
+.pull-left {
+    float: left!important;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 0;
+}
+
+.footer p {
+    float: right;
+    font-size: 18px;
+}
+
+
+#more {
+  display: block;
+  text-align: center;
+} 
+
+#more, .container p {
+  display: block;
+  text-align: center;
+}
+
+alt2{ margin: 0px; padding: 6px; border: 1px inset;}smallfont{margin-bottom:2px;}spoil{margin:10px; margin-top:5px;}
+
+}

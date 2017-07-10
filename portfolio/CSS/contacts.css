@@ -1,0 +1,99 @@
+html, body { 
+ 	margin: 0; 
+ 	padding: 0;
+ 	 font-family: 'Arvo', serif; 
+ 	 font-size: 16px; 
+ 	 } 
+
+ 	
+ 	 .header {
+ 	 	 	padding: 40px; 
+ 	 	 	background-color: #fff;
+ 	 	 	} 
+
+ 	 .header h1 {
+ 	 	margin: 0; 
+ 	 	padding: 0; 
+ 	 	    margin-left: -100px;
+ 	 	} 
+ 	 	.nav {
+ 	 		float:right; 
+ 	 		width:340px; 
+ 	 		    margin-right: -100px;
+ 	 		} 
+
+.nav-pills li.active a, .section .btn:hover, .nav-pills li a:hover {
+    background-color: rgba(216,25,47,1);
+    box-shadow: 0 2px 4px rgba(0,0,0,.5);
+    color: #fff;
+}
+ 	 		.nav>li>a {
+    position: relative;
+    display: block;
+    
+}
+ 	 		.nav-pills li a {
+ 	 			color: #d8192f;
+ 	 			 border:1px solid #d8192f;
+ 	 			  margin-left:10px; 
+ 	 			  text-align:center; 
+ 	 			  width:100px; 
+                      
+ 	 			} 
+ 	 			  
+ 	 			  .nav-pills li.active a:hover {
+ 	 			  	background-color: #d8192f;
+ 	 			  	 } 
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+ 	 	
+.intro{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}  
+
+.btn-default {
+    color: #fff;
+    border-color: #d8192f;
+    background-color: #d8192f;
+    text-align: center;
+    margin: 30px 0 40px 0;
+    padding: 10px 25px 10px 25px;
+    font-size: 14px;
+}
+
+
+.colortext {
+    color: #d8192f;
+}
+
+
+.footer{
+    background-color:  #d8192f;
+    line-height: 80px;
+}
+
+.pull-left {
+    float: left!important;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 0;
+}
+
+.footer p {
+    float: right;
+    font-size: 18px;
+}
+.supporting {
+   height: 300px;
+   padding-top: 80px;
+}
+.banner {
+     background: url(http://i.piccy.info/i9/5aea23e3930428502bda69ff4ef003c5/1482274686/390754/1101129/llm60dm_m6a_samuel_dixon.jpg) no-repeat center center;
+    background-size: cover;
+    height: 600px;
+}
