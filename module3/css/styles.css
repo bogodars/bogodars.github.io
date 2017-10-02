@@ -3,4 +3,12 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+
+}
+
+.text-center {
+    background-color: #999999;
+    border: 1px solid #000000;
+    margin: 0 0 25px 0;
+    padding: 0;
 }
