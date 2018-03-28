@@ -1,0 +1,137 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.main {
+  position: relative;
+}
+
+.main video {
+  width: 100%;
+}
+.feature-section {
+    background: url(https://s3.amazonaws.com/codecademy-content/projects/excursion/camp.png) no-repeat center center;
+    background-size: cover;
+    height: 500px;
+}
+div {
+  display:block;
+}
+
+.main .content {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.video-section .section-content {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.video-section video {
+    width: 100%;
+}
+.text-section {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.btn {
+  background-color: #4386fc;
+  color: #fff;
+  font-size: 16px; 
+  font-weight: 300;
+  padding: 16px 26px;
+  text-decoration: none;
+}
+.main h1 {
+  font-size: 50px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+
+.text-section h2 {
+    font-size: 48px;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.text-section p {
+    color: #333;
+    font-size: 21px;
+    padding: 0 30px;
+}
+
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.supporting {
+  margin-top: 100px;
+  margin-bottom: 130px;
+}
+
+.supporting h2 {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.supporting p {
+  color: #333;
+  font-size: 21px;
+  font-weight: 300;
+  padding: 0 30px;
+}
+
+.feature {
+  height: 500px;
+  background: url( https://s3.amazonaws.com/codecademy-content/projects/excursion/camp.png);
+}
+
+.footer {
+  padding: 30px;
+  background-color: #eeeeee;
+  font-size: 11px;
+  padding: 5px 0;
+}
+
+@media (max-width: 960px) {
+  .main {
+    height: 540px; 
+  }
+  .main video {
+    height: 540px; 
+    width: 960px;
+  }
+  .main h1 {
+    font-size: 32px;
+  }
+}
