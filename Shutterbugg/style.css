@@ -23,7 +23,8 @@ a {
 } 
 .main {
   background-image: url('https://s3.amazonaws.com/codecademy-content/projects/shutterbugg/intro.jpg'); 
-  height: 550px;
+ background-size:cover; 
+ height: 550px;
   padding-top: 55px; } 
 .main p {
   margin-bottom: 40px; 
