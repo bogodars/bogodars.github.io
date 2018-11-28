@@ -1,3 +1,3 @@
-See here - bogodars.github.io/BestBite/ 
+See here - https://bogodars.github.io/BestBite/
 
 Codecademy project
